@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 *, *:after {
   box-sizing: border-box;
 }
@@ -10,13 +14,19 @@ body {
   grid-template-columns: 1fr; 
   grid-template-rows: 1fr 1fr 1fr; 
   line-height: 1.5;
+  margin: 0 auto;
+  max-height: 100vh;
+  }
+  header, main, footer {
+    display: flex;
+    flex-flow: row wrap;
   }
   header {
     height: 5vh;
   }
   footer {
-    height: 2vh;
+    height: 3vh;
   }
   main {
-    height: 93vh;
+    height: 92vh;
   }
