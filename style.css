@@ -11,3 +11,12 @@ body {
   grid-template-rows: 1fr 1fr 1fr; 
   line-height: 1.5;
   }
+  header {
+    height: 5vh;
+  }
+  footer {
+    height: 2vh;
+  }
+  main {
+    height: 93vh;
+  }
