@@ -20,6 +20,8 @@ body {
   header, main, footer {
     display: flex;
     flex-flow: row wrap;
+    padding-left: 5em;
+    padding-right: 5em;
   }
   header {
     height: 5vh;
