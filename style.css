@@ -20,8 +20,14 @@ body {
   header, main, footer {
     display: flex;
     flex-flow: row wrap;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  @media screen and (min-width:992px) {
+    header, main, footer {
+      padding-left: 5em;
+      padding-right: 5em;
+    }
   }
   header {
     height: 5vh;
