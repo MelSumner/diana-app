@@ -20,6 +20,7 @@ body {
   header, main, footer {
     display: flex;
     flex-flow: row wrap;
+    min-height: fit-content;
     padding-left: 1em;
     padding-right: 1em;
   }
